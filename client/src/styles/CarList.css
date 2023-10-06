@@ -1,0 +1,66 @@
+/* CarList.css */
+
+.car-list-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .car-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .car-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+  }
+  
+  .car-info {
+    margin-bottom: 10px;
+  }
+  
+  .car-info h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .car-info p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .car-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .delete-button {
+    background-color: #ff4b4b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #e53838;
+  }
+  

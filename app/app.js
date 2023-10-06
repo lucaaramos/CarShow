@@ -1,12 +1,18 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const sequelize = require('./database/sequelize-config'); // Importa la instancia de Sequelize
+const sequelize = require('./database/sequelize-config');
+const cors = require('cors');
 const carRoutes = require('./routes/car');
 const orderRoutes = require('./routes/order')
 const userRoutes = require('./routes/user')
 const app = express();
-
-app.use(bodyParser.json());
+const corsOptions = {
+  origin: 'http://localhost:3001',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true, // Habilita las cookies u otros encabezados específicos
+};
+app.use(bodyParser.json())
+app.use(cors(corsOptions));
 
 
 app.use('/api', carRoutes);

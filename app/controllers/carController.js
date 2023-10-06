@@ -19,7 +19,7 @@ exports.createCar = async (req, res) => {
     const { brand, model, year, price, description, image } = req.body; 
 
     const newCar = await Car.create({ brand, model, year, price, description, image });
-    res.status(201).json('Nuevo auto creado'); 
+    res.status(201).json({message: 'Nuevo auto creado', car:newCar}); 
   } catch (error) {
     console.error('Error al crear un nuevo auto:', error);
     res.status(500).json({ error: 'Error al crear un nuevo auto' });
