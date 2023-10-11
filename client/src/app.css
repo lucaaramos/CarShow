@@ -1,0 +1,58 @@
+/* Reset de estilos para asegurarse de que no haya estilos predeterminados del navegador */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo básico del cuerpo de la aplicación */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Estilos para el encabezado */
+  .header {
+    background-color: #282c34;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Estilos para el contenido principal */
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para enlaces */
+  a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para elementos de lista */
+  ul {
+    list-style-type: none;
+  }
+  
+  /* Estilos para botones */
+  button {
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007acc;
+  }
+  

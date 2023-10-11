@@ -1,0 +1,32 @@
+/* Home.css */
+
+.home-container {
+  background-color: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  background-image: url('https://acnews.blob.core.windows.net/imgnews/large/NAZ_7387335f56554b7c9b9891cf2688a25f.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+}
+
+.car-list-container {
+  padding: 40px;
+}
+
+  

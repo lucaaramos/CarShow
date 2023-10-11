@@ -1,0 +1,81 @@
+/* Estilos generales para el nav */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  /* Estilos para la lista de navegación */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Centrar verticalmente los enlaces */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el menú desplegable */
+  .dropdown {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 200px;
+    list-style: none;
+    padding: 10px;
+    top: 30px;
+    left: 0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content li {
+    margin: 5px 0;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el enlace de carrito */
+  .nav-links .cart-link {
+    background-color: #f00;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Estilos para enlaces en hover */
+  .nav-links a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+
+  }
+  
